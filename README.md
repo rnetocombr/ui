@@ -1,5 +1,4 @@
 # UI - jQuery, Kube CSS and some plugins.
----
 
 This repo contains a bundle of the following libs:
 
