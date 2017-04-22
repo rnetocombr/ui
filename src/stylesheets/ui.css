@@ -1,8 +1,0 @@
-/*
-  Make body centered and with a limited width.
-*/
-body {
-  margin: auto;
-  max-width: 1120px;
-  padding: 8px;
-}

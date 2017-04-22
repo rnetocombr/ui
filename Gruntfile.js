@@ -7,25 +7,42 @@ module.exports = function(grunt) {
       },
       css: {
         src: [
-          'src/stylesheets/kube.css',
+          'src/stylesheets/bootstrap.css',
+          'src/stylesheets/bootstrap-submenu.css',
+          'src/stylesheets/bootstrap4-classes.css',
+          'src/stylesheets/bootstrap-datepicker.css',
+          'src/stylesheets/datatables-bootstrap.css',
+          'src/stylesheets/datatables-buttons.css',
+          'src/stylesheets/jquery-form-validator.css',
+
           'src/stylesheets/ui.css',
-          'src/stylesheets/font-awesome.css',
         ],
         dest: 'dist/stylesheets/ui.css',
         nonull: true
       },
       js: {
         src: [
-          'src/javascripts/kube.js',
-
-          'src/javascripts/moment.js',
-          'src/javascripts/moment-pt-br.js',
-
+          'src/javascripts/bootstrap.js',
+          'src/javascripts/bootstrap-submenu.js',
+          'src/javascripts/bootstrap-datepicker.js',
+          'src/javascripts/bootstrap-datepicker.pt-BR.js',
+          'src/javascripts/jquery-datatables.js',
+          'src/javascripts/jquery-datatables-bootstrap.js',
+          'src/javascripts/jquery-datatables-buttons.js',
+          'src/javascripts/jquery-datatables-buttons-html5.js',
           'src/javascripts/jquery-mask.js',
           'src/javascripts/jquery-maskmoney.js',
-          'src/javascripts/jquery-keyfilter.js',
           'src/javascripts/jquery-safeform.js',
           'src/javascripts/jquery-checkboxes.js',
+
+          'src/javascripts/jquery-form-validator.js',
+          'src/javascripts/jquery-form-validator-brazil.js',
+          'src/javascripts/jquery-form-validator-date.js',
+          'src/javascripts/jquery-form-validator-file.js',
+          'src/javascripts/jquery-form-validator-logic.js',
+          'src/javascripts/jquery-form-validator-sanitize.js',
+          'src/javascripts/jquery-form-validator-security.js',
+          'src/javascripts/jquery-form-validator-lang-pt.js',
 
           'src/javascripts/ui.js'
         ],
