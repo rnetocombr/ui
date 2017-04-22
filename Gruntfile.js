@@ -111,12 +111,6 @@ module.exports = function(grunt) {
             cwd: 'dist/',
             src: ['**/*'],
             dest: '/dist/'
-          },
-          {
-            expand: true,
-            cwd: 'docs/',
-            src: ['**/*'],
-            dest: '/docs/'
           }
         ]
 
