@@ -176,7 +176,8 @@
           </div>
           <div class="panel-body">
             <p class="lead">This is a lead paragraph.</p>
-            <p>This is an <b>ordinary paragraph</b> that is <i>long enough</i> to wrap to <u>multiple lines</u> so that you can see how the line spacing looks.</p>
+            <p>This is an <b>ordinary paragraph</b> that is <i>long enough</i> to wrap to <u>multiple lines</u> so that you can see how the line spacing looks.
+            </p>
             <p class="text-muted">Muted color paragraph.</p>
             <p class="text-warning">Warning color paragraph.</p>
             <p class="text-danger">Danger color paragraph.</p>
@@ -217,8 +218,76 @@
                 </ol>
               </div>
             </div>
+            <div>
+              <ul class="list-unstyled">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Integer molestie lorem at massa</li>
+                <li>Facilisis in pretium nisl aliquet</li>
+                <li>Nulla volutpat aliquam velit
+                  <ul>
+                    <li>Phasellus iaculis neque</li>
+                    <li>Purus sodales ultricies</li>
+                    <li>Vestibulum laoreet porttitor sem</li>
+                    <li>Ac tristique libero volutpat at</li>
+                  </ul>
+                </li>
+                <li>Faucibus porta lacus fringilla vel</li>
+                <li>Aenean sit amet erat nunc</li>
+                <li>Eget porttitor lorem</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="list-inline">
+                <li>Lorem ipsum</li>
+                <li>Phasellus iaculis</li>
+                <li>Nulla volutpat</li>
+              </ul>
+            </div>
+            <div>
+              <dl> <dt>Description lists</dt>
+                <dd>A description list is perfect for defining terms.</dd> <dt>Euismod</dt>
+                <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                <dd>Donec id elit non mi porta gravida at eget metus.</dd> <dt>Malesuada porta</dt>
+                <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+              </dl>
+            </div>
+            <dl class="dl-horizontal">
+              <dt>Description lists</dt>
+              <dd>A description list is perfect for defining terms.</dd> <dt>Euismod</dt>
+              <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+              <dd>Donec id elit non mi porta gravida at eget metus.</dd> <dt>Malesuada porta</dt>
+              <dd>Etiam porta sem malesuada magna mollis euismod.</dd> <dt>Felis euismod semper eget lacinia</dt>
+              <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+            </dl>
             <hr>
             <pre>function preFormatting() {  // looks like this;  var something = somethingElse;  return true;}</pre>
+            <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+            <p><del>This line of text is meant to be treated as deleted text.</del></p>
+            <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+            <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+            <p><u>This line of text will render as underlined</u></p>
+            <p><small>This line of text is meant to be treated as fine print.</small></p>
+            <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+            <p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+            <div>
+              <p class="text-left">Left aligned text.</p>
+              <p class="text-center">Center aligned text.</p>
+              <p class="text-right">Right aligned text.</p>
+              <p class="text-justify">Justified text.</p>
+              <p class="text-nowrap">No wrap text.</p>
+            </div>
+            <div>
+              <p class="text-lowercase">Lowercased text.</p>
+              <p class="text-uppercase">Uppercased text.</p>
+              <p class="text-capitalize">Capitalized text.</p>
+            </div>
+            <p>For example, <code>&lt;section&gt;</code> should be wrapped as inline.</p>
+            <p>To switch directories, type <kbd>cd</kbd> followed by the name of the directory.
+              <br></p>
+            <p><pre>&lt;p&gt;Sample text here...&lt;/p&gt;</pre></p>
+            <p><var>y</var> = <var>m</var><var>x</var> + <var>b</var></p>
+            <p><samp>This text is meant to be treated as sample output from a computer program.</samp></p>
           </div>
         </div>
       </div>
@@ -391,7 +460,8 @@
           </div>
           <div class="panel-body">
             <div class="input-group">
-              <span class="input-group-btn">                <button class="btn btn-default" type="button">Go!</button>              </span><input type="text" class="form-control" placeholder="Username">
+              <span class="input-group-btn">                <button class="btn btn-default" type="button">Go!</button>              </span>
+              <input type="text" class="form-control" placeholder="Username">
             </div>
             <br>
             <div class="input-group">
@@ -656,7 +726,8 @@
       </div>
       <div class="col-lg-4">
         <div class="list-group">
-          <a href="#" class="list-group-item active"> Cras justo odio </a><a href="#" class="list-group-item">Dapibus ac facilisis in </a><a href="#" class="list-group-item">Morbi leo risus </a><a href="#" class="list-group-item">Porta ac consectetur ac </a>
+          <a href="#" class="list-group-item active"> Cras justo odio </a><a href="#" class="list-group-item">Dapibus ac facilisis in </a><a href="#" class="list-group-item">Morbi leo risus </a>
+          <a href="#" class="list-group-item">Porta ac consectetur ac </a>
           <a href="#" class="list-group-item">Vestibulum at eros </a>
         </div>
       </div>
@@ -752,7 +823,7 @@
       <div class="panel-body">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-          Launch demo modal
+          <kbd>data-toggle="modal" data-target="#myModal"</kbd>
         </button>
 
         <!-- bootstrap-javascript-modal -->
@@ -787,13 +858,10 @@
         </ul>
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade active in" role="tabpanel" id="home" aria-labelledby="home-tab">
-            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.
-              Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
           </div>
           <div class="tab-pane fade" role="tabpanel" id="profile" aria-labelledby="profile-tab">
-            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress,
-              commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny
-              pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
           </div>
         </div>
       </div>
@@ -804,13 +872,19 @@
     <div class="panel panel-default" id="bootstrap-javascript-tooltip">
       <div class="panel-heading">bootstrap-javascript-tooltip</div>
       <div class="panel-body">
-        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+        <a href="#" data-toggle="tooltip" data-placement="left" title="Tooltip on left"><kbd>data-toggle="tooltip" data-placement="left" title="Tooltip on left"</kbd></a>
 
-        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+        <br>
 
-        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+        <a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><kbd>data-toggle="tooltip" data-placement="top" title="Tooltip on top"</kbd></a>
 
-        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+        <br>
+
+        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"><kbd>data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"</kbd></a>
+
+        <br>
+
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><kbd>data-toggle="tooltip" data-placement="right" title="Tooltip on right"</kbd></a>
       </div>
     </div>
     <!-- /bootstrap-javascript-tooltip -->
@@ -830,13 +904,13 @@
 
         <form class="form-horizontal">
           <div class="form-group">
-            <label for="jquery-mask-date" class="col-xs-2 control-label">00/00/0000</label>
+            <label for="jquery-mask-date" class="col-xs-2 control-label"><kbd>data-mask="00/00/0000"</kbd></label>
             <div class="col-xs-10">
               <input type="text" class="form-control" id="jquery-mask-date" placeholder="date" data-mask="00/00/0000">
             </div>
           </div>
           <div class="form-group">
-            <label for="jquery-mask-customcep" class="col-xs-2 control-label">SS00000-000</label>
+            <label for="jquery-mask-customcep" class="col-xs-2 control-label"><kbd>data-mask="SS00000-000"</kbd></label>
             <div class="col-xs-10">
               <input type="text" class="form-control" id="jquery-mask-customcep" data-mask="SS00000-000">
             </div>
@@ -855,6 +929,9 @@
     <div class="panel panel-default" id="jquery-mask-money">
       <div class="panel-heading">jquery-mask-money</div>
       <div class="panel-body">
+        <p>
+          <kbd>data-mask="$"</kbd>
+        </p>
         <form class="form-horizontal">
           <div class="form-group">
             <label for="jquery-mask-money-input" class="col-xs-2 control-label">$</label>
@@ -871,6 +948,11 @@
     <div class="panel panel-default" id="jquery-datatable">
       <div class="panel-heading">jquery-datatable</div>
       <div class="panel-body">
+        <br>
+        <p>
+          <kbd>data-table="" data-rows="2" data-export=""</kbd>
+        </p>
+        <br>
         <table class="table table-striped table-bordered" data-table="" data-rows="2" data-export="">
           <thead>
             <tr>
@@ -927,7 +1009,7 @@
       <div class="panel-heading">jquery-formvalidator</div>
       <div class="panel-body">
         <form action="" id="the-form">
-          <p> Require an answer (can be applied to all types of inputs and select elements) </p>
+          <p> <kbd>data-validation="required"</kbd> </p>
           <div class="row">
             <div class="col-xs-12">
               <input class="form-control" data-validation="required" type="text">
@@ -952,7 +1034,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Max 100 characters </p>
+              <p> <kbd>data-validation-length="max100"</kbd> </p>
               <input class="form-control" data-validation="length" data-validation-length="max100" type="text"> <br>
             </div>
           </div>
@@ -961,7 +1043,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Minimum 20 characters </p>
+              <p> <kbd>data-validation-length="min20"</kbd> </p>
               <input class="form-control" data-validation="length" data-validation-length="min20" type="text">
             </div>
           </div>
@@ -970,7 +1052,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> No less than 50 characters and no more than 200 characters </p>
+              <p> <kbd>data-validation-length="50-200"</kbd> </p>
               <input class="form-control" data-validation="length" data-validation-length="50-200" type="text">
             </div>
           </div>
@@ -979,7 +1061,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Require that atleast 2 options gets choosen </p>
+              <p> <kbd>data-validation-length="min2"</kbd> </p>
               <select multiple="multiple" size="5" class="form-control" data-validation="length" data-validation-length="min2">
                 <option>A</option>
                 <option>B</option>
@@ -994,7 +1076,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Any numerical value </p>
+              <p> <kbd>data-validation="number"</kbd> </p>
               <input class="form-control" data-validation="number" type="text">
             </div>
           </div>
@@ -1003,7 +1085,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Only allowing float values </p>
+              <p> <kbd>data-validation="number" data-validation-allowing="float"</kbd> </p>
               <input class="form-control" data-validation="number" data-validation-allowing="float" type="text">
             </div>
           </div>
@@ -1012,7 +1094,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Allowing float values and negative values </p>
+              <p> <kbd>data-validation-allowing="float,negative"</kbd> </p>
               <input class="form-control" data-validation="number" data-validation-allowing="float,negative" type="text">
             </div>
           </div>
@@ -1021,7 +1103,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Validate float number with comma separated decimals </p>
+              <p> <kbd>data-validation-allowing="float" data-validation-decimal-separator=","</kbd> </p>
               <input class="form-control" data-validation="number" data-validation-allowing="float" data-validation-decimal-separator="," type="text">
             </div>
           </div>
@@ -1030,7 +1112,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Only allowing numbers from 1 to 100 </p>
+              <p> <kbd>data-validation="number" data-validation-allowing="range[1;100]"</kbd> </p>
               <input class="form-control" data-validation="number" data-validation-allowing="range[1;100]" type="text">
             </div>
           </div>
@@ -1039,7 +1121,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Only allowing numbers from -50 to 30 </p>
+              <p> <kbd>data-validation="number" data-validation-allowing="range[-50;30],negative"</kbd> </p>
               <input class="form-control" data-validation="number" data-validation-allowing="range[-50;30],negative" type="text">
             </div>
           </div>
@@ -1048,7 +1130,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Only allowing numbers from 0.05 to 0.5 </p>
+              <p> <kbd>data-validation="number" data-validation-allowing="range[0.05;0.5],float"</kbd> </p>
               <input class="form-control" data-validation="number" data-validation-allowing="range[0.05;0.5],float" type="text">
             </div>
           </div>
@@ -1057,7 +1139,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> e-mail </p>
+              <p> <kbd>data-validation="email"</kbd> </p>
               <input class="form-control" data-validation="email" type="text">
             </div>
           </div>
@@ -1066,7 +1148,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> url </p>
+              <p> <kbd>data-validation="url"</kbd> </p>
               <input class="form-control" data-validation="url" type="text">
             </div>
           </div>
@@ -1075,7 +1157,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> <b>date - </b> Validate date formatted yyyy-mm-dd </p>
+              <p> <kbd>data-validation="date"</kbd> - Validate date formatted yyyy-mm-dd </p>
               <input class="form-control" data-validation="date" type="text">
             </div>
           </div>
@@ -1084,7 +1166,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> <b>date - </b> Validate date formatted yyyy-mm-dd but dont require leading zeros </p>
+              <p> <kbd>data-validation="date" data-validation-require-leading-zero="false"</kbd> - Validate date formatted yyyy-mm-dd but dont require leading zeros </p>
               <input class="form-control" data-validation="date" data-validation-require-leading-zero="false" type="text">
             </div>
           </div>
@@ -1093,7 +1175,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> <b>date - </b> Validate date formatted dd/mm/yyyy </p>
+              <p> <kbd>data-validation="date" data-validation-format="dd/mm/yyyy"</kbd> </p>
               <input class="form-control" data-validation="date" data-validation-format="dd/mm/yyyy" type="text">
             </div>
           </div>
@@ -1102,7 +1184,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> <b>alphanumeric - </b> This input requires an answer that contains only letters a-z and/or numbers - alphanumeric </p>
+              <p> <kbd>data-validation="alphanumeric"</kbd> </p>
               <input class="form-control" data-validation="alphanumeric" type="text">
             </div>
           </div>
@@ -1111,7 +1193,8 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> <b>alphanumeric - </b> This input requires the same as the one above but it also allows hyphen and underscore - alphanumeric with underscore </p>
+              <p> <kbd>data-validation="alphanumeric" data-validation-allowing="-_"</kbd>
+              </p>
               <input class="form-control" data-validation="alphanumeric" data-validation-allowing="-_" type="text">
             </div>
           </div>
@@ -1120,7 +1203,8 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> <b>custom - </b> This input would only allow lowercase letters a-z </p>
+              <p> <kbd>data-validation="custom" data-validation-regexp="^([a-z]+)$"</kbd>
+              </p>
               <input class="form-control" data-validation="custom" data-validation-regexp="^([a-z]+)$" type="text">
             </div>
           </div>
@@ -1136,8 +1220,9 @@
                 <textarea rows="3" id="area"></textarea>
               </p>
               <script>
-                $('#area').restrictLength($('#maxlength'));
-
+                $(document).ready(function(){
+                  $('#area').restrictLength($('#maxlength'));
+                });
               </script>
             </div>
           </div>
@@ -1146,7 +1231,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> <b>Optional - </b> This input will only be validated if a value is given </p>
+              <p> <kbd>data-validation="url" data-validation-optional="true"</kbd> </p>
               <input class="form-control" data-validation="url" data-validation-optional="true" type="text">
             </div>
           </div>
@@ -1155,7 +1240,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Helper text </p>
+              <p> <kbd>data-validation-help="Please give us some more information"</kbd> </p>
               <p>
                 <strong>Why not?</strong>
                 <input name="why" data-validation-help="Please give us some more information">
@@ -1167,7 +1252,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Suggestions </p>
+              <p> <kbd>data-suggestions="White, Green, Blue, Black, Brown"</kbd> </p>
               <p>
                 What's your favorite color?
                 <input name="color" data-suggestions="White, Green, Blue, Black, Brown">
@@ -1179,7 +1264,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Make it optional to end the amount with a dollar-sign </p>
+              <p> <kbd>data-validation="number" data-validation-ignore="$"</kbd> </p>
               <p>
                 How much do you want to donate?
                 <input name="color" class="form-control" data-validation="number" data-validation-ignore="$">
@@ -1194,8 +1279,10 @@
           <div class="row">
             <div class="col-xs-12">
               <p>
-                E-mail
-                <input name="user-email" class="form-control" data-validation="email"> Repeat e-mail
+                <kbd>data-validation="email"</kbd>
+                <input name="user-email" class="form-control" data-validation="email">
+                <br><br>
+                <kbd>data-validation="confirmation" data-validation-confirm="user-email"</kbd>
                 <input name="repeat" class="form-control" data-validation="confirmation" data-validation-confirm="user-email">
               </p>
             </div>
@@ -1206,7 +1293,7 @@
           <div class="row">
             <div class="col-xs-12">
               <p>
-                <strong>Password strength:</strong>
+                <kbd>data-validation="strength" data-validation-strength="2"</kbd>
                 <input name="pass" class="form-control" data-validation="strength" data-validation-strength="2" type="password">
               </p>
             </div>
@@ -1216,7 +1303,9 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> This input requires an answer that contains only letters and/or numbers </p>
+              <p>
+              <kbd>data-validation="letternumeric"</kbd>
+              </p>
               <input class="form-control" data-validation="letternumeric" type="text">
             </div>
           </div>
@@ -1226,7 +1315,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> This input requires the same as the one above but it also allows hyphen and underscore </p>
+              <p> <kbd>data-validation="alphanumeric" data-validation-allowing="-_"</kbd> </p>
               <input class="form-control" data-validation="alphanumeric" data-validation-allowing="-_" type="text">
             </div>
           </div>
@@ -1237,7 +1326,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Validate that file is an image of type JPG, GIF or PNG and not larger than 2 mega bytes </p>
+              <p> <kbd>data-validation="mime size" data-validation-allowing="jpg, png, gif" data-validation-max-size="2M"</kbd> </p>
               <input class="form-control" data-validation="mime size" data-validation-allowing="jpg, png, gif" data-validation-max-size="2M" type="file">
             </div>
           </div>
@@ -1246,7 +1335,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Validate that a file is given and that it has .txt as extension </p>
+              <p> <kbd>data-validation="required extension" data-validation-allowing="txt"</kbd> </p>
               <input class="form-control" data-validation="required extension" data-validation-allowing="txt" type="file">
             </div>
           </div>
@@ -1255,7 +1344,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Validate that the image is no smaller than 100x100 px and no larger than 800x800 </p>
+              <p> <kbd>data-validation="dimension mime" data-validation-allowing="jpg" data-validation-dimension="100-800"</kbd> </p>
               <input class="form-control" data-validation="dimension mime" data-validation-allowing="jpg" data-validation-dimension="100-800">
             </div>
           </div>
@@ -1264,7 +1353,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <p> Validate that only somewhat square images gets uploaded </p>
+              <p> <kbd>data-validation="ratio mime" data-validation-allowing="jpg" data-validation-dimension="min100" data-validation-ratio="8:10-12:10"</kbd> </p>
               <input class="form-control" data-validation="ratio mime" data-validation-allowing="jpg" data-validation-dimension="min100" data-validation-ratio="8:10-12:10">
             </div>
           </div>
@@ -1289,8 +1378,8 @@
           <div class="row">
             <div class="col-xs-12">
               <p>
-                Name:
-                <input name="user_name" data-sanitize="trim lower" class="form-control" data-validation="length" data-validation-length="min5">
+                <kbd>data-sanitize="trim lower"</kbd>
+                <input name="user_name" class="form-control" data-sanitize="trim lower" data-validation="length" data-validation-length="min5">
               </p>
             </div>
           </div>
@@ -1300,7 +1389,7 @@
           <div class="row">
             <div class="col-xs-12">
               <p>
-                Amount:
+                <kbd>data-sanitize="insertRight" data-sanitize-insert-right=" $"</kbd>
                 <input name="amount" data-sanitize="insertRight" data-sanitize-insert-right=" $">
               </p>
             </div>
@@ -1319,6 +1408,8 @@
               </p>
               <p>
                 <strong>E-mail:</strong>
+                <br>
+                <kbd>data-validation="email" data-validation-depends-on="do-contact"</kbd>
                 <input class="form-control" data-validation="email" data-validation-depends-on="do-contact" type="text">
               </p>
             </div>
@@ -1336,6 +1427,8 @@
 
               <p>
                 <strong>State:</strong>
+                <br>
+                <kbd>data-validation-depends-on="country" data-validation-depends-on-value="usa, canada"</kbd>
                 <input name="state" class="form-control" data-validation="required" data-validation-depends-on="country" data-validation-depends-on-value="usa, canada" type="text">
               </p>
             </div>
@@ -1347,23 +1440,18 @@
             <div class="col-xs-12">
               <p> Use the attribute data-validation-optional-if-answered to tell the validator that only one, out of a group of inputs, requires an answer. </p>
               <p>
-                <strong>Home phone number:</strong>
+                <strong>Home phone number:</strong> - <kbd>data-validation-optional-if-answered="cell-phone, work-phone"</kbd>
                 <input name="home-phone" class="form-control" data-validation="number" data-validation-optional-if-answered="cell-phone, work-phone">
               </p>
               <p>
-                <strong>Cell phone number:</strong>
+                <strong>Cell phone number:</strong> - <kbd>data-validation-optional-if-answered="home-phone, work-phone"</kbd>
                 <input name="cell-phone" class="form-control" data-validation="number" data-validation-optional-if-answered="home-phone, work-phone">
               </p>
               <p>
-                <strong>Work phone number:</strong>
+                <strong>Work phone number:</strong> - <kbd>data-validation-optional-if-answered="home-phone, cell-phone"</kbd>
                 <input name="work-phone" class="form-control" data-validation="number" data-validation-optional-if-answered="home-phone, cell-phone">
               </p </div>
             </div>
-
-
-            <br>
-
-
         </form>
         </div>
       </div>
@@ -1375,7 +1463,7 @@
         <div class="panel-body">
           <form class="form-horizontal">
             <div class="form-group">
-              <label for="bootstrap-datepicker-input" class="col-xs-2 control-label">datepicker</label>
+              <label for="bootstrap-datepicker-input" class="col-xs-2 control-label"><kbd>data-datepicker=""</kbd></label>
               <div class="col-xs-10">
                 <input type="text" class="form-control" id="bootstrap-datepicker-input" data-datepicker="" data-mask="00/00/0000">
               </div>
